@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e4dfdf"
+    tools:context="com.example.nutit.giaodien.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_closet"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="View my closet"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"
+                    android:background="#ffffff" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#a6a6a6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="View my likes"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_sold"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Sold items"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"
+                    android:background="#ffffff" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#a6a6a6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_purchased"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Purchased items"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_profile"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Edit profile"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"
+                    android:background="#ffffff" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#a6a6a6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_shipping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Edit shipping address"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_setup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Setup instant payment"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#FFFFFFFF"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Setup instant payment"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/swt_englock_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textOff="|"
+                    android:textOn="|" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Help Guides"
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="right|center_vertical"
+                    android:text=">   "
+                    android:textAllCaps="false"
+                    android:textColor="#FFA6A6A6"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="#FFA6A6A6"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
